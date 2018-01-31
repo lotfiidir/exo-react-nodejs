@@ -1,0 +1,28 @@
+.App {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.choix {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.choix p{
+  font-size: 18px;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 0 0 #eeeeee;
+  transition: 0.3s ease;
+}
+.choix p:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}

@@ -1,0 +1,21 @@
+{
+  "name": "exo-node-react",
+  "version": "0.1.0",
+  "description": "node js & react",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "author": "lotfi idir",
+  "license": "ISC"
+}
